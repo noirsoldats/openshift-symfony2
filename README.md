@@ -12,7 +12,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a php-5.3 application (you can call your application whatever you want)
 
-    rhc-create-app -a symfonyphp -t php-5.3 --from-code git@github.com:noirsoldats/openshift-symfony2.git
+    rhc create-app -a symfonyphp -t php-5.3 --from-code git@github.com:noirsoldats/openshift-symfony2.git
 
 That's it, you can now checkout your application at:
 
